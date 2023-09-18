@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* padding: 20px; */
+}
+
+/* NAVIGATION BAR */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+/* WELCOME SCREEN */
+.welcome {
+    margin-top: 10px;
+    height: 100px;
+    text-align: left;
+    align-content: space-around;
+    background-color: cornflowerblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}

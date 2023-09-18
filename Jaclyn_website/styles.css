@@ -19,7 +19,7 @@ img {
 }
 
 body {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     text-align: center;
 }
 
@@ -27,10 +27,11 @@ body {
     background-color: rgb(86, 120, 164);
     color: white;
     margin: 5px auto;
-    width: 400px;
+    /* width: 400px; */
     padding: 5px;
     border: 2px solid black;
     border-radius: 10px;
+    /* box-shadow: 5px 5px 5px grey; */
 }
 
 .link-box {
@@ -42,6 +43,7 @@ body {
     padding: 3px;
     border: 1px solid black;
     border-radius: 5px;
+    
 }
 
 .link-box:hover {
