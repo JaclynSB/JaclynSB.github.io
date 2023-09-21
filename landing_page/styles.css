@@ -1,21 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    width: auto;
     margin: 0;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-}
-
-.basic {
-    display: flex;
     align-content: left;
-    align-items: center;
-    padding: 0px 50px 0px 0px; 
-    background-color: aqua;
+    padding-left: 30px;
 }
 
 /* NAVIGATION BAR */
@@ -25,14 +16,14 @@ body {
     background-color: rgb(37, 37, 37);
     font-weight: bold;
     color: white;
-    align-content: center;
 }
 
 .header-logo img {
+    display: flex;
+    flex-direction: row;
     padding: 10px;
-    width: 3%;
+    width: 4%;
     align-content: center;
-    /* margin: auto; */
 }
 
 .header-links {
@@ -47,20 +38,22 @@ body {
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
+    width: max-content;
 }
+
 
 /* WELCOME SCREEN */
 .welcome {
-    height: 700px;
+    height: 600px;
     flex-direction: row;
     align-items: center;
     background-color: cornflowerblue;
 }
 
-
-/* .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-} */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
