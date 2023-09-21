@@ -12,18 +12,29 @@ body {
 /* NAVIGATION BAR */
 .nav {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     background-color: rgb(37, 37, 37);
     font-weight: bold;
     color: white;
 }
 
 .header-logo img {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     padding: 10px;
-    width: 4%;
+    width: 30px;
+    height: auto;
     align-content: center;
+}
+
+.header-logo h1 {
+    display: inline-flex;
+    font-size: 48px;
+    font-weight: bold;
+    height: 100%;
+    color: #F9FAF8;
+    padding-left: 30px;
+    font-family: 'Roboto', arial;
 }
 
 .header-links {
@@ -47,13 +58,11 @@ body {
     height: 600px;
     flex-direction: row;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: rgb(37, 106, 181);
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin: 0;
-    font-family: 'Roboto', arial;
+.welcome-text {
+    font-size: 65px;
+    align-items: center;
+    color: white;
 }
