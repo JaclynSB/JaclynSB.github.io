@@ -58,8 +58,16 @@ body {
     flex-direction: row;
     align-items: center;
     background-color: rgb(22, 79, 139);
-    /* background-color: rgb(48, 47, 47); */
+}
 
+.welcome-title {
+    font-size: 70px;
+    font-family: 'Roboto', arial;
+    /* font-weight: bold; */
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(48, 47, 47);
 }
 
 .welcome-text {
@@ -94,14 +102,15 @@ body {
 }
 
 .details-title {
-    font-size: 80px;
+    font-size: 70px;
     font-family: 'Roboto', arial;
-    padding-left: 70px;
+    padding-left: 150px;
     padding-bottom: 70px;
     font-weight: bold;
     flex-direction: column;
     align-items: left;
     color: white;
+    font-style: italic;
     text-shadow: 2px 2px 2px rgb(48, 47, 47);
 }
 
